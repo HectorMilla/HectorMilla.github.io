@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box; }
+
+html,
+#root,
+.App {
+  height: 100%; }
+
+.switch {
+  padding-top: 3rem; }
+
+nav {
+  position: absolute;
+  background: rgba(22, 22, 14, 0);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  margin: 0; }
+  nav .nav-link {
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.99);
+    font-weight: 400;
+    font-size: 1.5rem; }
+    nav .nav-link:hover {
+      color: gold; }
+
+#home {
+  padding-top: 3rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/mexican-food-background-11.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+  #home .home-bg {
+    color: #fff;
+    align-self: center; }
+  #home .home-info {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column; }
+    #home .home-info span {
+      color: #fff;
+      margin: auto; }
+    #home .home-info p {
+      margin: auto; }
+
+.lg-heading {
+  margin-bottom: 5rem;
+  font-weight: 500;
+  color: #82dd37;
+  font-family: "Uncial Antiqua", cursive; }
+
+.menu {
+  width: 100%; }
+
+.menu-slider {
+  margin-top: 3rem;
+  background: url("https://media.istockphoto.com/photos/healthy-eating-background-food-photography-different-fruits-and-picture-id515854732");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .menu-slider h1 {
+    align-self: flex-start;
+    margin-top: 4rem;
+    color: #2add2a; }
+    .menu-slider h1 i {
+      color: black;
+      font-size: 1.8rem; }
+  .menu-slider img {
+    height: 100%;
+    width: 50%;
+    color: red; }
+
+.special {
+  background: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/106396/1360/906/m1/fpnw/wm1/keih4mm9pyv3kpq8scymlnub2aecxzs9iscdane82nvbmfcc3leqqh7pjk0adoki-.jpg?1399222056&s=5b37acf697a3a17893d05f2e5fdefd4d");
+  background-size: cover;
+  color: #12b134;
+  padding-top: 3rem; }
+  .special h4,
+  .special p {
+    text-align: center;
+    padding-top: 2rem; }
+  .special img {
+    margin: 0 auto;
+    display: block;
+    height: 10%;
+    width: 50%;
+    padding-bottom: 1rem; }
+  .special .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .special .buttons p {
+      color: purple; }
+    .special .buttons .btn,
+    .special .buttons .b-day {
+      align-self: center; }
+    .special .buttons .b-day {
+      margin-bottom: 2rem; }
+
+#location {
+  padding-top: 3rem;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:https://previews.123rf.com/images/oksanaoo/oksanaoo1712/oksanaoo171200317/92233530-vector-image-positioning-on-the-map-mark-icon-red-icon-location-drop-pin-on-a-light-background.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+  #location .location-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: #ff00f2; }
+  #location .locations {
+    height: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; }
+    #location .locations span {
+      margin: 0 auto;
+      display: block; }
+    #location .locations .cities {
+      width: 50%;
+      margin-bottom: 6rem; }
+      #location .locations .cities span {
+        color: red;
+        font-weight: 600; }
+      #location .locations .cities div {
+        align-self: center;
+        margin: 0.5rem 0.5rem;
+        border-radius: 600px;
+        font-size: 0.7rem; }
+    #location .locations .map {
+      height: 100%; }
+
+#contact {
+  height: 100%;
+  padding-top: 4rem;
+  background: url("https://s3.envato.com/files/222501642/screenshots/10_Background_Color.png"); }
+  #contact h4 {
+    text-align: center;
+    color: red; }
+  #contact p {
+    text-align: center; }
+  #contact form {
+    display: flex;
+    flex-direction: column; }
+    #contact form button {
+      align-self: flex-end;
+      margin-bottom: 1rem; }
+
+footer {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(22, 20, 10, 0.6);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  margin: 0; }
+  footer span {
+    margin: auto;
+    color: red; }
